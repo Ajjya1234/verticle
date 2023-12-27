@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* background-color: aqua; */
+    width: 15%;
+    /* height: 100vh; */
+}
+#cont{
+    list-style-type: none;
+    background-color: red;
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    position: absolute;
+    display: none;
+    top: 60px;
+    left: 15%;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+
+#bmenu{
+    background-color: deeppink;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#bdrop{
+    position: relative;
+ }
+#bdrop:hover #bmenu{
+    display: block;
+}
+#lmenu{
+    background-color: deeppink;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+#ldrop{
+    position: relative;
+ }
+ #ldrop:hover #lmenu{
+    display: block;
+}
+
+#dmenu{
+    background-color: deeppink;
+    list-style-type: none;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+#ddrop{
+    position: relative;
+ }
+ #ddrop:hover #dmenu{
+    display: block;
+}
+
+/* Non veg */
+#nmenu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    position: absolute;
+    display: none;
+    top: 60px;
+    left: 15%;
+    display: none;
+}
+#ndrop:hover #nmenu{
+    display: block;
+}
+
+#nbmenu{
+    background-color: deeppink;
+    list-style-type: none;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+#nbdrop{
+    position: relative;
+ }
+#nbdrop:hover #nbmenu{
+    display: block;
+}
+#nlmenu{
+    background-color: deeppink;
+    list-style-type: none;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+#nldrop{
+    position: relative;
+ }
+ #nldrop:hover #nlmenu{
+    display: block;
+}
+
+#ndmenu{
+    background-color: deeppink;
+    list-style-type: none;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+#nddrop{
+    position: relative;
+ }
+ #nddrop:hover #ndmenu{
+    display: block;
+}
+
